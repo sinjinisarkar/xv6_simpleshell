@@ -8,4 +8,9 @@ A custom shell implemented for the xv6 operating system as part of a university 
 * Sequential Commands: Execute multiple commands in sequence using the ; operator.
 * Edge Case Handling: Robust against varied command formats, such as extra spaces or unusual input patterns.
 
+# Setup
+## Prerequisites  
+* xv6 operating system source code  
+* GCC or a compatible C compiler  
+* Git  
 
