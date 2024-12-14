@@ -18,4 +18,14 @@ A custom shell implemented for the xv6 operating system as part of a university 
 1. Clone the xv6 repository:  
    ```bash  
    git clone https://github.com/mit-pdos/xv6-public.git  
-   cd xv6-public  
+   cd xv6-public
+   ```
+2. Clone this project into the user/ directory of xv6: 
+   ```bash
+   git clone https://github.com/<your-github-username>/xv6_simpleshell.git user/  
+   ```
+3. Build the xv6 OS:
+   ```bash
+   make clean  
+   make qemu  
+   ```
